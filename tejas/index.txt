@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SMILE FOUNDATION</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="Main">
+                <div class="logo">
+                    <img src="01.jpeg">
+                </div>
+                
+            </div>
+            <div class="title">
+                <h1>SMILE FOUNDATION</h1>
+                <h2>She can Fly</h2><br>
+                <h3>Give her the Sky ....</h3>
+            </div>
+            <div class="button">
+                <a href="https://www.youtube.com/watch?v=Ti0S4eZiAjg" class="btn">WATCH VIDEO</a>
+                <a href="https://www.smilefoundationindia.org/she-can-fly/" class="btn">LEARN MORE</a><br/><br/>
+<form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HHr3aqy0zE9opL" async> </script> </form> 
+</div>
+
+
+
+		
+		
+        </header>
+    </body>
+</html

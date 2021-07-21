@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(01.jpeg) ;
+    height: 102vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type:none ;
+    margin-top: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration:none;
+    color: rgb(231, 171, 17);
+    padding: 5px 30px;
+    border: 2px solid transparent;
+
+}
+
+ul li a:hover{
+    background-color: rgb(231, 171, 17);
+    color: black;
+    transition: 0.6s ease;
+}
+
+ul li.active a{
+    background-color: rgb(231, 171, 17);
+    color: black;
+}
+
+.logo img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    float: centre;
+    width:150px;
+    height:100px ;
+    margin-top: 30px;
+    margin-left: 580px;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.title h1{
+    position: absolute;
+    top:30%;
+    left:20%;
+    transform: translate(-50%-50%);    
+    color:  rgb(196, 255, 77);
+    font-size:80px;
+}
+.title h2{
+    position: absolute;   
+    color: rgb(204,255,255);
+    font-size:24px;
+    top:42%;
+    right:28%;
+   transition: 3s linear;
+}
+.title h3{
+    position: absolute;   
+    color: rgb(204,255,255);
+    font-size:24px;
+    top:46%;
+    right:20%;
+   transition: 4s linear;
+}
+
+
+.button{
+    position: absolute;
+    top:58%;
+    left:38%;
+    transform: translate(-50%-50%);
+}
+
+.btn{
+    border: 2px solid  rgb(255, 204, 255);
+    padding: 10px 40px;
+    color:  rgb(204,255,255);
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: rgb(204,255,255);
+    color: black;
+    transition: 0.6s ease;
+}
